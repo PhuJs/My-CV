@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+    background-color:#f1f1f1;
+    padding-top:20px;
+}
+
+hr{
+    border:0;
+    border-top:1px solid #eee;
+    margin:20px 0;
+}
+
+.sidebar-right{
+    box-shadow:0 2px 6px 0 #ccc;
+    background-color:#fff;
+}
+
+.content{
+   
+}
+
+.sb-info{
+  
+}
+
+.sb-info__img{
+    padding-top:60%;
+    background-image: url(https://www.w3schools.com/w3images/avatar_hat.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+}
+
+.sb-info__name{
+    font-size:3rem;
+    margin:10px 12px;
+    display:inline-block;
+    font-weight:400;
+}
+
+.sb-info__contact{
+    padding:8px 16px 40px 16px;
+    
+}
+
+.sb-info__text{
+    font-size:1.6rem;
+    color:#757575;
+    margin:15px 0;
+}
+
+.sb-info__text i{
+    color:#009688;
+    margin-right:6px;
+    vertical-align:-1px;
+}
+
+.sb-info__skill{
+    font-size:1.8rem;
+    color:#757575;
+}
+
+.sb-info__skill i{
+    color:#009688;
+    margin-right:6px;
+}
+
+.sb-info__ability{
+    font-size:1.5rem;
+    color:#757575;
+    margin:15px 0;
+}
+
+.sb-info__exemple{
+    border-radius:16px;
+    background-color:#f1f1f1;
+}
+
+.sb-info__exemple>div{
+    background-color:#009688;
+    border-radius:16px;
+    font-size:1.2rem;
+    text-align:center;
+    padding:4px;
+    color:#fff;
+}
+
+.sb-info__languages{
+    font-size:2rem;
+    color:#757575;
+    margin:20px 0;
+}
+
+.sb-info__languages i{
+    color:#009688;
+    margin-right:6px;
+    vertical-align:-2px;
+}
+
+/* Content : Work */
+.work{
+    padding:10px 18px;
+    background-color:#fff;
+    box-shadow:0 1px 6px 0 #ccc;
+}
+
+.work__title{
+    font-size:3rem;
+    padding:16px 0;
+    margin:10px 0;
+    font-weight:400;
+}
+
+.work__title i{
+    color:#009688;
+    margin-right:8px;
+    vertical-align:-6px;
+}
+
+.work__content{
+    padding:0 12px;
+}
+
+.work__transfer{
+    font-size:1.8rem;
+    color:#757575;
+    margin:10px 0;
+    font-weight:500;
+}
+
+.work__date{
+    font-size:1.6rem;
+    margin:10px 0;
+    color:#009688;
+}
+
+.work__date i{
+    margin-right:8px;
+    vertical-align:-1px;
+}
+
+.work__text{
+    font-size:1.5rem;
+    margin:15px 0;
+    color:#757575;
+}
+
+/* Education */
+.education{
+    padding:10px 18px;
+    background-color:#fff;
+    box-shadow:0 1px 6px 0 #ccc;
+    margin-top:20px;
+}
+
+.education__title{
+    font-size:3rem;
+    color:#757575;
+    margin:18px 0 26px 0;
+    font-weight:400;
+}
+
+.education__title i{
+    color:#009688;
+    vertical-align:-1px;
+    margin-right:10px;
+}
+
+.education__container{
+   padding:4px 16px;
+}
+
+.education__school{
+    font-size:1.8rem;
+    color:#757575;
+    font-weight:500;
+    margin:10px 0;
+}
+
+.education__date{
+    font-size:1.6rem;
+    color:#009688;
+    margin:10px 0;
+}
+
+.education__date i{
+    vertical-align:-1px;
+    margin-right:8px;
+}
+
+.education__text{
+    font-size:1.5rem;
+    color:#000;
+    margin:15px 0;
+}
+
+/* Footer */
+.footer{
+    background-color:#009688;
+    text-align:center;
+    padding:16px;
+    margin-top:20px;
+}
+
+.footer__header{
+    font-size:1.6rem;
+    color:#fff;
+}
+
+.footer__group-icon{
+    margin:10px 0;
+}
+
+.footer__group-icon i{
+    font-size:1.6rem;
+    color:#fff;
+}
+
+.footer__end{
+    font-size:1.6rem;
+    color:#fff;
+    margin:10px 0;
+}
+
+.footer__end a{
+    color:#fff;
+}
